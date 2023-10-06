@@ -13,6 +13,7 @@ import {
   VscTypeHierarchy,
   VscClose,
   VscAccount,
+  VscGlobe,
 } from "react-icons/vsc";
 import "../style/System.css";
 
@@ -72,6 +73,10 @@ const ZonesList = ({ zones, onSelectZone, userData, onAddZoneClick }) => {
           <a href="/" className="space-between">
             <VscSymbolOperator /> Consumption
           </a>
+        </button>
+        <button onClick={onDashboardClick} className="space-between blue-hover">
+          <VscGlobe />
+          Forecast
         </button>
         <div className="sect-def">
           {" "}

@@ -95,7 +95,7 @@
 }
 
 .main {
-  background-color: var(--high);
+  background-color: var(--back);
   min-width: none;
   display: grid;
   gap: 0.5em;
